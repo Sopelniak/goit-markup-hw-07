@@ -1,0 +1,53 @@
+.advantage__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage__item {
+  width: 270px;
+}
+
+.advantage__item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-light-gray);
+  border-radius: 4px;
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advantage__item:nth-child(1)::before {
+  background-image: url(../images/advantage-antenna.svg);
+}
+
+.advantage__item:nth-child(2)::before {
+  background-image: url(../images/advantage-clock.svg);
+}
+
+.advantage__item:nth-child(3)::before {
+  background-image: url(../images/advantage-diagram.svg);
+}
+
+.advantage__item:nth-child(4)::before {
+  background-image: url(../images/advantage-astronaut.svg);
+}
+
+.advantage__name {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.advantage__specification {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  margin: 0;
+}

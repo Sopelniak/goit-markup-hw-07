@@ -1,0 +1,25 @@
+// utils
+@import './utils/_variables';
+@import './utils/_normalize';
+@import './utils/visually-hidden';
+
+// base
+@import './base/common';
+@import './base/reset';
+@import './base/typography';
+
+// components
+@import './components/section';
+@import './components/conteiner';
+@import './components/button';
+
+// layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantage';
+@import './layouts/activities';
+@import './layouts/teem';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/backdrop-modal';
+@import './layouts/examples';
