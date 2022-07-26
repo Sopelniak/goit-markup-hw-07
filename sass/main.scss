@@ -9,9 +9,12 @@
 @import './base/typography';
 
 // components
+@import './components/logo';
 @import './components/section';
 @import './components/conteiner';
 @import './components/button';
+@import './components/networks-btn';
+@import './components/modal';
 
 // layouts
 @import './layouts/header';

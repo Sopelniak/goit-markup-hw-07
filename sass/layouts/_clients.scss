@@ -10,12 +10,6 @@
   gap: 30px;
 }
 
-.clients__icon:hover,
-.clients__icon:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
 .clients__icon {
   fill: #afb1b8;
   width: 170px;
@@ -27,4 +21,10 @@
   transition-property: fill, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }

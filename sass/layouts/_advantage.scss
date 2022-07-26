@@ -5,34 +5,34 @@
 
 .advantage__item {
   width: 270px;
-}
 
-.advantage__item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--background-light-gray);
-  border-radius: 4px;
-  background-size: 70px 70px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+  &::before {
+    content: '';
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--background-light-gray);
+    border-radius: 4px;
+    background-size: 70px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.advantage__item:nth-child(1)::before {
-  background-image: url(../images/advantage-antenna.svg);
-}
+  &:nth-child(1)::before {
+    background-image: url(../images/advantage-antenna.svg);
+  }
 
-.advantage__item:nth-child(2)::before {
-  background-image: url(../images/advantage-clock.svg);
-}
+  &:nth-child(2)::before {
+    background-image: url(../images/advantage-clock.svg);
+  }
 
-.advantage__item:nth-child(3)::before {
-  background-image: url(../images/advantage-diagram.svg);
-}
+  &:nth-child(3)::before {
+    background-image: url(../images/advantage-diagram.svg);
+  }
 
-.advantage__item:nth-child(4)::before {
-  background-image: url(../images/advantage-astronaut.svg);
+  &:nth-child(4)::before {
+    background-image: url(../images/advantage-astronaut.svg);
+  }
 }
 
 .advantage__name {
